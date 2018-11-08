@@ -2,13 +2,17 @@ import os
 import fnmatch
 import sys
 
+
 def find_files(topdir, pattern):
     for path, dirname, filelist in os.walk(topdir):
         for name in filelist:
             if fnmatch.fnmatch(name, pattern):
                 yield os.path.join(path, name)
 
+
 import gzip, bz2
+
+
 def opener(filenames):
     for name in filenames:
         if name.endswith(".gz"):
@@ -19,10 +23,12 @@ def opener(filenames):
             f = open(name)
         yield f
 
+
 def cat(filelist):
     for f in filelist:
         for line in f:
             yield line
+
 
 def grep(pattern, lines):
     for line in lines:
@@ -31,7 +37,7 @@ def grep(pattern, lines):
 
 
 if __name__ == "__main__":
-    wwwlogs = find_files("www","access-log")
+    wwwlogs = find_files("www", "access-log*")
     files = opener(wwwlogs)
     lines = cat(files)
     pylines = grep("python", lines)
