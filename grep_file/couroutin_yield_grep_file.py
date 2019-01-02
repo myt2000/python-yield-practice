@@ -4,7 +4,15 @@ import sys
 import asyncio
 
 
+def decorator(func):
+    def wrapper(*args, **kwargs):
+        res = func(*args, **kwargs)
+        next(res)
+        return res
+    return wrapper
+
 @asyncio.coroutine
+@decorator
 def find_files(target):
     while True:
         topdir, pattern = (yield)
@@ -18,6 +26,7 @@ import gzip, bz2
 
 
 @asyncio.coroutine
+@decorator
 def opener(target):
     while True:
         name = (yield)
@@ -31,6 +40,7 @@ def opener(target):
 
 
 @asyncio.coroutine
+@decorator
 def cat(target):
     while True:
         f = (yield)
@@ -39,6 +49,7 @@ def cat(target):
 
 
 @asyncio.coroutine
+@decorator
 def grep(pattern, target):
     while True:
         line = (yield)
@@ -47,14 +58,18 @@ def grep(pattern, target):
 
 
 @asyncio.coroutine
+@decorator
 def printer():
     while True:
         line = (yield)
         sys.stdout.write(line)
 
 
-if __name__ == "__main__":
-    finder = find_files(opener(cat(grep("python", printer()))))
 
-    finder.send(("www", "access-log*"))
-    finder.send(("oterwww", "access-log*"))
+
+if __name__ == "__main__":
+    # finder = find_files(opener(cat(grep(None, printer()))))
+    finder = find_files(opener(cat(grep("python", printer()))))
+    # finder.send()
+    finder.send(("d:/", "*"))
+    # finder.send(("oterwww", "access-log*"))

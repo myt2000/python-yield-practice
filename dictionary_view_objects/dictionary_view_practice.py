@@ -21,4 +21,3 @@ print(keys & {'eggs', 'bacon', 'salad'})
 print(keys ^ {'sausage', 'juice'})
 
 
-    
