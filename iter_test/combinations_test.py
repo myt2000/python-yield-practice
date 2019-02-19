@@ -19,3 +19,8 @@ def combinations(iterable, r):
         for j in range(i+1, r):
             indices[j] = indices[j-1] + 1
         yield tuple(pool[i] for i in indices)
+
+
+if __name__ == '__main__':
+    a = 'ABCD'
+    print(list(combinations(a, 2)))
