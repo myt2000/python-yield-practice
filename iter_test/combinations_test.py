@@ -24,3 +24,4 @@ def combinations(iterable, r):
 if __name__ == '__main__':
     a = 'ABCD'
     print(list(combinations(a, 2)))
+
