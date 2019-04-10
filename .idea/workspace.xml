@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7e110f-19ff-4bfb-b091-81c666f89205" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pickle_practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pickle_practice/only_builtins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pickle_practice/pickle_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pickle_practice/text_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shelve_practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shelve_practice/shelve_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite3_practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite3_practice/sqlite3_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite3_practice/sqlite3_test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compression_decompression/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compression_decompression/gzip_compression_decompression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compression_decompression/lzma_compression_decompression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configparser_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configparser_test/configprarser_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_file_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_file_test/csv_reading_writing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_file_test/open_sh000001.csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlite3_practice/sqlite3_create_aggregate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlite3_practice/sqlite3_create_collation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xdr_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xdr_test/xdr_practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,108 +24,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python_yield_practice$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1553150645795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sqlite3_practice" />
+    <SUITE FILE_PATH="coverage/python_yield_practice$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1554864034045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xdr_test" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="copytree_pracitce.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shutil_prctice/copytree_pracitce.py">
+      <file leaf-file-name="csv_reading_writing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copytree_logging_practice.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shutil_prctice/copytree_logging_practice.py">
+      <file leaf-file-name="open_sh000001.csv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv_file_test/open_sh000001.csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pickle_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pickle_practice/pickle_demo.py">
+      <file leaf-file-name="configprarser_create.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configparser_test/configprarser_create.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-990">
-              <caret selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqlite3_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sqlite3_practice/sqlite3_test.py">
+      <file leaf-file-name="xdr_practice.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xdr_test/xdr_practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqlite3_test2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sqlite3_practice/sqlite3_test2.py">
+      <file leaf-file-name="csv.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python/Lib/csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            <state relative-caret-position="290">
+              <caret line="67" column="39" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shelve_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shelve_practice/shelve_test.py">
+      <file leaf-file-name="eggs.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv_file_test/eggs.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+              <caret selection-end-line="1" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="couroutin_yield_grep_file.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grep_file/couroutin_yield_grep_file.py">
+      <file leaf-file-name="_csv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1602919499/_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collections_veified.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collections_abc_verified/collections_veified.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text_reader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pickle_practice/text_reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="only_builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pickle_practice/only_builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-295">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -135,6 +99,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>QUOTE_ALL</find>
+      <find>quoting</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,6 +137,16 @@
         <option value="$PROJECT_DIR$/shelve_practice/shelve_test.py" />
         <option value="$PROJECT_DIR$/sqlite3_practice/sqlite3_test.py" />
         <option value="$PROJECT_DIR$/sqlite3_practice/sqlite3_test2.py" />
+        <option value="$PROJECT_DIR$/sqlite3_practice/connection_sqlite3.py" />
+        <option value="$PROJECT_DIR$/sqlite3_practice/sqlite3_create_aggregate.py" />
+        <option value="$PROJECT_DIR$/sqlite3_practice/sqlite3_aggregate.py" />
+        <option value="$PROJECT_DIR$/sqlite3_practice/sqlite3_create_collation.py" />
+        <option value="$PROJECT_DIR$/compression_decompression/lzma_compression_decompression.py" />
+        <option value="$PROJECT_DIR$/compression_decompression/gzip_compression_decompression.py" />
+        <option value="$PROJECT_DIR$/csv_file_test/csv_reading_writing.py" />
+        <option value="$PROJECT_DIR$/csv_file_test/open_sh000001.csv.py" />
+        <option value="$PROJECT_DIR$/configparser_test/configprarser_create.py" />
+        <option value="$PROJECT_DIR$/xdr_test/xdr_practice.py" />
       </list>
     </option>
   </component>
@@ -190,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,41 +178,15 @@
               <item name="python-yield-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-yield-practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python-yield-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-yield-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="collections_abc_verified" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-yield-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-yield-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="grep_file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-yield-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-yield-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="pickle_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-yield-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-yield-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="shelve_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-yield-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-yield-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite3_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sqlite3_practice/sqlite3_test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xdr_test/xdr_practice.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -262,12 +217,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\odoo_code_manage\testchild\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqlite3_practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xdr_test" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlite3_practice/sqlite3_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xdr_test/xdr_practice.py" />
       <option name="PARAMETERS" value="python" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,23 +244,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.28898582" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35287845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22654584" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39694658" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991276" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -469,7 +423,70 @@
           <line>31</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xdr_test/xdr_practice.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xdr_test/xdr_practice.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xdr_test/xdr_practice.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -477,7 +494,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="78" />
+      <option name="time" value="141" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -490,99 +507,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dictionary_view_objects/dictionary_view_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grep_file/couroutin_yield_grep_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/counter/counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grep_file/yield_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary_view_objects/dictionary_view_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grep_file/couroutin_yield_grep_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/counter/counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grep_file/yield_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary_view_objects/dictionary_view_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grep_file/couroutin_yield_grep_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/counter/counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grep_file/yield_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dictionary_view_objects/dictionary_view_practice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -802,9 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,9 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,9 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pickle_practice/pickle_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
+        <state>
           <caret selection-end-column="23" />
         </state>
       </provider>
@@ -868,15 +783,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sqlite3_practice/sqlite3_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="418">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqlite3_practice/sqlite3_test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlite3_practice/sqlite3_create_aggregate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlite3_practice/sqlite3_create_collation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compression_decompression/gzip_compression_decompression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compression_decompression/lzma_compression_decompression.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python/Lib/gzip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3476">
+          <caret line="162" column="67" selection-start-line="162" selection-start-column="63" selection-end-line="162" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_file_test/eggs.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1602919499/_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-295">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_file_test/csv_reading_writing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_file_test/open_sh000001.csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configparser_test/configprarser_create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdr_test/xdr_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
