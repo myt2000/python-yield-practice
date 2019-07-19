@@ -26,5 +26,8 @@ def condition_solution():
 
 #  T(n) = 时间复杂度 10 * n^2  = O(n^3)
 
+
+
 if __name__ == "__main__":
     condition_solution()
+

@@ -33,5 +33,15 @@ print("[i for]: %f" % timer3.timeit(number=100))
 print("list(): %f" % timer4.timeit(number=100))
 print("insert(): %f" % timer5.timeit(number=100))
 
+
+'''
+# ('concat ', 1.7890608310699463, 'seconds')
+# ('append ', 0.13796091079711914, 'seconds')
+# ('comprehension ', 0.05671119689941406, 'seconds')
+# ('list range ', 0.014147043228149414, 'seconds')
+'''
+
+# 可以看出，两个列表相加最慢，其次是一个一个元素添加到列表， 列表表达式相对快，迭代器转换为列表最快
+
 # if __name__ == "__main__":
     
