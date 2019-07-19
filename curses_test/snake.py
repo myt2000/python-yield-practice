@@ -4,9 +4,13 @@ import random
 # initialize the window
 s = curses.initscr()
 curses.curs_set(0)
+# 页面的宽高
 hei, wei = s.getmaxyx()  # the value of first getting is y,not x
+# 创建宽高度（左上角为后两位）
 w = curses.newwin(hei, wei, 0, 0)
+# 键盘curses顺序
 w.keypad(1)
+# 阻塞100毫秒
 w.timeout(100)
 
 # initialize the position of snake
@@ -16,12 +20,14 @@ snake = [[sn_y, sn_x], [sn_y, sn_x - 1], [sn_y, sn_x - 2]]
 
 # initialize the position of food
 food_pos = [int(hei / 2), int(wei / 2)]
+# 绘制food位置
 w.addch(food_pos[0], food_pos[1], '$')
 
 key = curses.KEY_RIGHT
 
 # start
 while True:
+    # 获取下一个按键值
     next_key = w.getch()  # The program stops waiting for user input. If not input for 100 milliseconds,go on
     if next_key != -1:  # got the input char
         if key == curses.KEY_RIGHT and next_key != curses.KEY_LEFT \
@@ -32,6 +38,7 @@ while True:
 
     # the situation of death
     if snake[0][0] in [0, hei] or snake[0][1] in [0, wei] or snake[0] in snake[1:]:
+        # 取消初始化
         curses.endwin()
         quit()
 
