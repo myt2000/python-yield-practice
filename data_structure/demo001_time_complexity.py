@@ -24,7 +24,7 @@ def condition_solution():
     print("cost: %f" % cost)
 
 
-#  T(n) = 时间复杂度 10 * n^2  = O(n^3)
+#  T(n) = 时间复杂度 10 * n^2  = O(n^2)
 
 
 
