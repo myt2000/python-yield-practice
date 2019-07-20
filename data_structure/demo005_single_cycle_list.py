@@ -33,11 +33,11 @@ class SinCycLinkedlist(object):
         if self.is_empty():
             return
         cur = self.__head
-        print(cur.item)
+        print(cur.item, end=' ')
         while cur.next != self.__head:
             cur = cur.next
-            print(cur.item)
-        print("")
+            print(cur.item, end=' ')
+        print(" ")
 
 
     def add(self, item):
@@ -51,6 +51,7 @@ class SinCycLinkedlist(object):
             node.next = self.__head
             # 移到链表尾部，将尾部节点的next指向node
             cur = self.__head
+            # 寻找尾结点
             while cur.next != self.__head:
                 cur = cur.next
             cur.next = node
@@ -98,7 +99,9 @@ class SinCycLinkedlist(object):
         # 将cur指向头节点
         cur = self.__head
         pre = None
+        # 判断头结点是否指向自己进行循环
         while cur.next != self.__head:
+            # 找到删除元素
             if cur.item == item:
                 # 先判断此结点是否是头节点
                 if cur == self.__head:
@@ -114,6 +117,7 @@ class SinCycLinkedlist(object):
                     pre.next = cur.next
                 return
             else:
+                # pre 为当前结点
                 pre = cur
                 cur = cur.next
         # 退出循环，cur指向尾节点
@@ -141,15 +145,24 @@ class SinCycLinkedlist(object):
 if __name__ == "__main__":
     ll = SinCycLinkedlist()
     ll.add(1)
+    ll.travel()
     ll.add(2)
+    ll.travel()
     ll.append(3)
+    ll.travel()
     ll.insert(2, 4)
+    ll.travel()
     ll.insert(4, 5)
+    ll.travel()
     ll.insert(0, 6)
+    ll.travel()
     print("length:", ll.length())
     ll.travel()
     print(ll.search(3))
     print(ll.search(7))
     ll.remove(1)
+    ll.travel()
+    ll.remove(3)
+    ll.travel()
     print("length:", ll.length())
     ll.travel()
