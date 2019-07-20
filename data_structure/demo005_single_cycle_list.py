@@ -19,8 +19,10 @@ class SinCycLinkedlist(object):
         # 如果链表为空，返回长度0
         if self.is_empty():
             return 0
+        # 从一开始计数
         count = 1
         cur = self.__head
+        # 判断是不是头结点进行循环退出
         while cur.next != self.__head:
             count += 1
             cur = cur.next
