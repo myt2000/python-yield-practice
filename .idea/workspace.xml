@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7e110f-19ff-4bfb-b091-81c666f89205" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/data_structure/sort/demo003_insertion_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure/sort/demo004_quick_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure/sort/demo004_quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure/sort/demo004_quick_sort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure/demo001_time_complexity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/demo005_single_cycle_list.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +81,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure/sort/demo004_quick_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="269">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -148,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sqlite3_practice/connection_sqlite3.py" />
         <option value="$PROJECT_DIR$/sqlite3_practice/sqlite3_create_aggregate.py" />
         <option value="$PROJECT_DIR$/sqlite3_practice/sqlite3_aggregate.py" />
         <option value="$PROJECT_DIR$/sqlite3_practice/sqlite3_create_collation.py" />
@@ -199,6 +198,7 @@
         <option value="$PROJECT_DIR$/data_structure/sort/demo002_selection_sort.py" />
         <option value="$PROJECT_DIR$/data_structure/sort/demo003_insertion_sort.py" />
         <option value="$PROJECT_DIR$/data_structure/sort/demo004_quick_sort.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -298,12 +298,12 @@
       <updated>1541684725870</updated>
       <workItem from="1563548909748" duration="1541000" />
       <workItem from="1563593244844" duration="15251000" />
-      <workItem from="1563699667898" duration="6611000" />
+      <workItem from="1563699667898" duration="7148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23403000" />
+    <option name="totallyTimeSpent" value="23940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1358" height="780" extended-state="0" />
@@ -843,13 +843,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/iter_test/accumulate_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iter_test/compress_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1157,8 +1150,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure/sort/demo004_quick_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="269">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
         </state>
       </provider>
     </entry>
