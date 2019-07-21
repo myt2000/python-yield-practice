@@ -37,10 +37,12 @@ def quick_sort(alist, start, end):
     # 对基准元素右边的子序列进行快速排序
     quick_sort(alist, low+1, end)
 
-def quick_sort2(alist):
-    mid = alist[0]
-    left = 0
-    right = len(alist)-1
+def quick_sort2(alist, start, end):
+
+    
+    mid = alist[start]
+    left = start
+    right = end
 
     while left < right:
         while left < right and alist[right] > mid:
@@ -51,8 +53,8 @@ def quick_sort2(alist):
         alist[right] = alist[left]
 
     alist[left] = mid
-    quick_sort2(alist[:left])
-    quick_sort2(alist[left+1:])
+    quick_sort2(alist, start, left-1)
+    quick_sort2(alist, left+1, end)
 
 
 if __name__ == "__main__":
