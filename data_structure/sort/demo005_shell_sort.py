@@ -1,7 +1,7 @@
 def shell_sort(alist):
     n = len(alist)
     # 初始步长
-    gap = n / 2
+    gap = int(n / 2)
     while gap > 0:
         # 按步长进行插入排序
         for i in range(gap, n):
@@ -9,9 +9,10 @@ def shell_sort(alist):
             # 插入排序
             while j >= gap and alist[j-gap] > alist[j]:
                 alist[j-gap], alist[j] = alist[j], alist[j-gap]
+                # 暂停while循环的方式
                 j -= gap
         # 得到新的步长
-        gap = gap / 2
+        gap = int(gap / 2)
 
 
 if __name__ == "__main__":
